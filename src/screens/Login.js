@@ -3,8 +3,8 @@ import {
 } from "react-native";
 import React, { useState } from 'react';
 import Logo from '../../assets/images/Logo.png';
-import CustomInput from "../api/components/CustomInput";
-import CustomButton from "../api/components/CustomButton";
+import CustomInput from "../components/CustomInput";
+import CustomButton from "../components/CustomButton";
 const Login = ({ navigation }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
